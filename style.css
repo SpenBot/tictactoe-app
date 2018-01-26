@@ -1,0 +1,52 @@
+body {
+  background-color: rgb(142, 196, 246);
+  color: white;
+
+  font-family: 'Press Start 2P', sans-serif;
+  font-size: 16px;
+
+  text-align: center;
+}
+
+h2 {
+  margin: 30px auto 10px;
+  text-decoration: underline;
+  font-size: 40px;
+}
+
+h3 {
+  margin: 5px auto 30px auto;;
+  border: solid white 2px;
+  width: 422px;
+  padding: 20px;
+}
+
+.gridAll {
+  width: 462px;
+  height: 462px;
+  border: solid white 2px;
+
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.box {
+  width: 150px;
+  height: 150px;
+  border: solid white 2px;
+
+  font-size: 50px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* text-align: center; */
+}
+
+.box:hover {
+  cursor: pointer;
+  border: solid blue 2px;
+}
